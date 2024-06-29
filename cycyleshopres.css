@@ -1,0 +1,999 @@
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+
+    /* banner section */
+    #bicycle {
+
+        background: linear-gradient(rgba(175, 26, 26, 50%), rgba(0, 0, 0, 50%)), url("imges/bike-hero.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 50vh;
+        background-position:center;
+    
+    
+    }
+    
+    #logo_contant {
+       display: none;
+    
+    }
+    #bicycle #banner_contant {
+        display: flex;
+        flex-direction: column;
+        justify-content:right;
+        align-items: right;
+        padding-left: 0px;
+    }
+
+    /* ----------------------Mountain Bike Section-------------------------- */
+    #banner {
+
+        width: 100%;
+        height: 50vh;
+        background: linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 0.7)), url("imges/bannerImg/1.jpg");
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position:right;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    
+#city_bikes {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("imges/bannerImg/2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#spacail_bikes {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("imges/bannerImg/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-position: center;
+}
+
+
+
+/* ---------Why Chosse KROY?------ */
+
+.card-title {
+    font-size: 20px;
+    font-family: "Racing Sans One", sans-serif;
+}
+
+.card-body-1 {
+    width: 100%;
+    height: 24vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 150px 0px 0px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+
+}
+.card-body-1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 150px 0px 0px 20px;
+    width: 100%;
+    height: 24vh;
+}
+
+.card-body-2 {
+    width: 100%;
+    height: 24vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 150px 0px 0px 20px;
+}
+.card-body-2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 150px 0px 0px 20px;
+    width: 100%;
+    height: 24vh;
+
+}
+.card-body-3 {
+    width: 100%;
+    height: 16.6vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    padding: 125px 0px 0px 20px;
+    font-family: "Racing Sans One", sans-serif;
+
+}
+
+.card-body-3:hover{
+    width: 100%;
+    height: 16.6vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    padding: 125px 0px 0px 20px;
+    font-family: "Racing Sans One", sans-serif;
+
+}
+.card-body-4 {
+    width: 100%;
+    height: 16.6vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: flex-start;
+    color: white;
+    padding: 125px 0px 0px 20px;
+    font-family: "Racing Sans One", sans-serif;
+
+}
+
+.card-body-4:hover {
+    width: 100%;
+    height: 16.6vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    padding: 125px 0px 0px 20px;
+    font-family: "Racing Sans One", sans-serif;
+
+}
+
+.card-body-5 {
+    width: 100%;
+    height: 16.6vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    padding: 125px 0px 0px 20px;
+    font-family: "Racing Sans One", sans-serif;
+
+}
+.card-body-5:hover {
+    width: 100%;
+    height: 16.6vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    padding: 125px 0px 0px 20px;
+    font-family: "Racing Sans One", sans-serif;
+
+}
+/* ---Explor batten */
+#arrivals_batten {
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    padding: 13px 35px;
+    margin: 0px 0px 30px 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #c91212;
+    transition: 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+
+}
+#join_j.bikeing-programmer {
+
+    width: 100%;
+    height: 50vh;
+}
+/* ----------------Join Programme -------------- */
+
+#join_img {
+
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/bannerImg/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px 30px 0px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 450px 0px 0px 70px;
+    font-family: "Racing Sans One", sans-serif;
+
+}
+/* -------------The All New Kryo Mtb ------------- */
+#last_banner {
+    
+    width: 100%;
+    height: 50vh;
+    background:linear-gradient(rgba(0, 0, 0, 50%), rgba(0,0,0,0.7)), url("imges/bike-hero.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: right;
+     background-attachment: fixed;
+     background-position: center;
+    
+}
+#explore_btn:hover {
+    background: #991010;
+}
+
+/* --FOOTER----- */
+#footer_firstpage {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89) 100%, rgba(0, 0, 0), rgb(0, 0, 0));
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    padding-top: 180px;
+}
+.footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content img {
+    padding-left: 0;
+    margin-bottom: 10px; /* Adjust spacing around image */
+}
+
+#footer_icon_id .text-end,
+#footer_icon_id .text-start {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#footer_icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing between icons */
+}
+
+}
+
+
+  
+  /* Small devices (tablets, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+
+        /* banner section */
+        #bicycle {
+
+            background: linear-gradient(rgba(175, 26, 26, 50%), rgba(0, 0, 0, 50%)), url("imges/bike-hero.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 50vh;
+            background-position:center;
+        
+        
+        }
+        
+        #logo_contant {
+           display: none;
+        
+        }
+        #bicycle #banner_contant {
+            display: flex;
+            flex-direction: column;
+            justify-content:right;
+            align-items: right;
+            padding-left: 0px;
+        }
+    
+        /* ----------------------Mountain Bike Section-------------------------- */
+        #banner {
+    
+            width: 100%;
+            height: 45vh;
+            background: linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 0.7)), url("imges/bannerImg/1.jpg");
+        
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            position:right;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        
+    #city_bikes {
+        width: 100%;
+        height: 45vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("imges/bannerImg/2.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    
+    #spacail_bikes {
+        width: 100%;
+        height: 45vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("imges/bannerImg/3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-position: center;
+    }
+    
+    
+    
+    /* ---------Why Chosse KROY?------ */
+    
+    .card-title {
+        font-size: 20px;
+        font-family: "Racing Sans One", sans-serif;
+    }
+    
+    .card-body-1 {
+        width: 100%;
+        height: 24vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        padding: 150px 0px 0px 20px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    
+    
+    }
+    .card-body-1:hover {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        padding: 150px 0px 0px 20px;
+        width: 100%;
+        height: 24vh;
+    }
+    
+    .card-body-2 {
+        width: 100%;
+        height: 24vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        padding: 150px 0px 0px 20px;
+    }
+    .card-body-2:hover {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        padding: 150px 0px 0px 20px;
+        width: 100%;
+        height: 24vh;
+    
+    }
+    .card-body-3 {
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    
+    .card-body-3:hover{
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    .card-body-4 {
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/8.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    
+    .card-body-4:hover {
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/8.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    
+    .card-body-5 {
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/9.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    .card-body-5:hover {
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/9.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    /* ---Explor batten */
+    #arrivals_batten {
+        font-size: 0.9rem;
+        border: none;
+        outline: none;
+        color: aliceblue;
+        padding: 13px 35px;
+        margin: 0px 0px 30px 0px;
+        cursor: pointer;
+        text-transform: uppercase;
+        background: #c91212;
+        transition: 0.3s ease;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+    
+    }
+    #join_j.bikeing-programmer {
+    
+        width: 100%;
+        height: 50vh;
+    }
+    /* ----------------Join Programme -------------- */
+    
+    #join_img {
+    
+        width: 100%;
+        height: 50vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/bannerImg/5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px 0px 30px 0px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        padding: 450px 0px 0px 70px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    /* -------------The All New Kryo Mtb ------------- */
+    #last_banner {
+        
+        width: 100%;
+        height: 50vh;
+        background:linear-gradient(rgba(0, 0, 0, 50%), rgba(0,0,0,0.7)), url("imges/bike-hero.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: right;
+         background-attachment: fixed;
+         background-position: center;
+        
+    }
+    #explore_btn:hover {
+        background: #991010;
+    }
+    
+    /* --FOOTER----- */
+    #footer_firstpage {
+        width: 100%;
+        height: 50vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.89) 100%, rgba(0, 0, 0), rgb(0, 0, 0));
+        background-color: transparent;
+        position: relative;
+        overflow: hidden;
+        padding-top: 180px;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-content img {
+        padding-left: 0;
+        margin-bottom: 10px; /* Adjust spacing around image */
+    }
+    
+    #footer_icon_id .text-end,
+    #footer_icon_id .text-start {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #footer_icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Adjust spacing between icons */
+    }
+
+
+    /* Your styles for small devices */
+  }
+  
+  /* Medium devices (laptops/desktops, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+
+   
+        /* banner section */
+        #bicycle {
+
+            background: linear-gradient(rgba(175, 26, 26, 50%), rgba(0, 0, 0, 50%)), url("imges/bike-hero.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 50vh;
+            background-position:center;
+        
+        
+        }
+        
+        #logo_contant {
+           display: none;
+        
+        }
+        #bicycle #banner_contant {
+            display: flex;
+            flex-direction: column;
+            justify-content:right;
+            align-items: right;
+            padding-left: 0px;
+        }
+    
+        /* ----------------------Mountain Bike Section-------------------------- */
+        #banner {
+    
+            width: 100%;
+            height: 45vh;
+            background: linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 0.7)), url("imges/bannerImg/1.jpg");
+        
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            position:right;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        
+    #city_bikes {
+        width: 100%;
+        height: 45vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("imges/bannerImg/2.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    
+    #spacail_bikes {
+        width: 100%;
+        height: 45vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("imges/bannerImg/3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-position: center;
+    }
+    
+    
+    
+    /* ---------Why Chosse KROY?------ */
+    
+    .card-title {
+        font-size: 20px;
+        font-family: "Racing Sans One", sans-serif;
+    }
+    
+    .card-body-1 {
+        width: 100%;
+        height: 24vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        padding: 150px 0px 0px 20px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    
+    
+    }
+    .card-body-1:hover {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        padding: 150px 0px 0px 20px;
+        width: 100%;
+        height: 24vh;
+    }
+    
+    .card-body-2 {
+        width: 100%;
+        height: 24vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        padding: 150px 0px 0px 20px;
+    }
+    .card-body-2:hover {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        padding: 150px 0px 0px 20px;
+        width: 100%;
+        height: 24vh;
+    
+    }
+    .card-body-3 {
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    
+    .card-body-3:hover{
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    .card-body-4 {
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/8.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    
+    .card-body-4:hover {
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/8.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    
+    .card-body-5 {
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/9.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    .card-body-5:hover {
+        width: 100%;
+        height: 16.6vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/9.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        color: white;
+        padding: 125px 0px 0px 20px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    /* ---Explor batten */
+    #arrivals_batten {
+        font-size: 0.9rem;
+        border: none;
+        outline: none;
+        color: aliceblue;
+        padding: 13px 35px;
+        margin: 0px 0px 30px 0px;
+        cursor: pointer;
+        text-transform: uppercase;
+        background: #c91212;
+        transition: 0.3s ease;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+    
+    }
+    #join_j.bikeing-programmer {
+    
+        width: 100%;
+        height: 50vh;
+    }
+    /* ----------------Join Programme -------------- */
+    
+    #join_img {
+    
+        width: 100%;
+        height: 50vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/bannerImg/5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px 0px 30px 0px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+        padding: 450px 0px 0px 70px;
+        font-family: "Racing Sans One", sans-serif;
+    
+    }
+    /* -------------The All New Kryo Mtb ------------- */
+    #last_banner {
+        
+        width: 100%;
+        height: 50vh;
+        background:linear-gradient(rgba(0, 0, 0, 50%), rgba(0,0,0,0.7)), url("imges/bike-hero.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: right;
+         background-attachment: fixed;
+         background-position: center;
+        
+    }
+    #explore_btn:hover {
+        background: #991010;
+    }
+    
+    /* --FOOTER----- */
+    #footer_firstpage {
+        width: 100%;
+        height: 50vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.89) 100%, rgba(0, 0, 0), rgb(0, 0, 0));
+        background-color: transparent;
+        position: relative;
+        overflow: hidden;
+        padding-top: 180px;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-content img {
+        padding-left: 0;
+        margin-bottom: 10px; /* Adjust spacing around image */
+    }
+    
+    #footer_icon_id .text-end,
+    #footer_icon_id .text-start {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #footer_icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Adjust spacing between icons */
+    }
+  
+    
+
+    /* Your styles for medium devices */
+  }
+  
+  /* Large devices (large laptops/desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+
+    /* Your styles for large devices */
+
+
+/* --banner -- */
+
+ 
+
+
+  }
+  
+
+
+
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    /* Your styles for extra large devices */
+/* banner section */
+  }

@@ -1,0 +1,784 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    /* font-family: "Racing Sans One", sans-serif; */
+}
+
+
+/* html scroll bar */
+html::-webkit-scrollbar {
+    width: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+html::-webkit-scrollbar-track {
+    background: #a80a0a;
+}
+
+/* --root */
+
+:root {
+
+    --maincolorOrnage: #df453e;
+    --maincolorBlack: #161616;
+}
+
+
+
+/* banner section */
+
+#logo img {
+    width: 90px;
+    height: 50px;
+    margin: 0px 0px 0px 60px;
+}
+
+#bicycle .navbg_color {
+
+    color: white;
+}
+
+#bicycle {
+    background: linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 0.7)), url("imges/bannerImg/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    background-position: right;
+}
+
+#cart {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: "Racing Sans One", sans-serif;
+}
+
+nav ul {
+    padding: 0px 100px 0px 0px;
+}
+
+nav ul li {
+    padding: 0px 10px;
+}
+
+#bicycle a {
+    color: white;
+}
+
+#bicycle nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+#deflix_span {
+    color: white;
+}
+
+#icon {
+    font-size: 90px;
+    color: white;
+}
+
+#bicycle #banner_contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    padding-left: 80px;
+}
+
+ul.b {
+    list-style-type: square;
+    font-size: 17px;
+    padding-left: 1%;
+}
+
+ul.b li {
+    padding: 0px 0px 0px 10px;
+}
+
+/* ---banner headings--*/
+
+#kruo {
+    font-size: 90px;
+    font-family: "Racing Sans One", sans-serif; 
+}
+
+#logo_contant {
+    padding-left: 60px;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 30px;
+}
+
+.bt #banner_batten {
+    width: 140px;
+    height: 50px;
+    margin: 0px 0px 0x 0px;
+    background: #b22222;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+}
+
+.bt #banner_batten:hover {
+    background: #991010;
+}
+
+.bt {
+    margin-top: 20px;
+}
+
+/* ------join program */
+#video-contain{
+    margin-top: 100px;
+}
+#j_img {
+
+    width: 100%;
+    height: 90vh;   
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(8, 8, 8, 0.973)), url("imges/bannerImg/6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 475px 0px 0px 70px;
+    font-family: "Racing Sans One", sans-serif;
+
+}
+
+#video_heading {
+    color: #fff;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 40px;
+}
+
+.video_btn {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #fff;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#fa_btn_play {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+#video_btn_heading2 {
+    color: #000;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 25px;
+    padding: 30px 0px 0px 10px;
+}
+#n_arrval_heading{
+    color: #fff;
+    margin-bottom: 60px;
+    font-size: 80px;
+    font-family: "Racing Sans One", sans-serif;
+}
+
+/* ----------------custom btn-------- */
+#heading-realtive{
+    font-family: "Racing Sans One", sans-serif;
+}
+.btn-customize {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 23px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 1100px;
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-customize:hover {
+    background-color: #2563eb;
+    color: #fff;
+}
+
+.btn-customize:hover i {
+    color: #fff;
+}
+
+.btn-customize i {
+    margin-right: 8px;
+    color: #2563eb;
+}
+
+/* navbar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 10px;
+    right: 0;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2563eb;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.closebtn {
+    width: 30px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 28px;
+    color: #00000081;
+    background: none;
+    border: 1px solid #0000003b;
+    cursor: pointer;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.closebtn:hover{
+    border: 1px solid #000;
+    color: #000;
+}
+
+#btn_with_heading {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:-60px;
+ 
+    
+    
+}
+.top-container {
+padding: 10px; /* Optional padding for aesthetics */
+background-color: #f0f0f0; /* Optional background color */
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 0px;
+    }
+
+    .sidenav a {
+        font-size: 0px;
+    }
+}
+
+/* hr */
+#custom-hr {
+    border: none; /* Remove the default border */
+    height: 1px; /* Set the height of the line */
+    background-color: black; /* Set the background color */
+    width: 92%; /* Set the width of the line */
+    margin: 20px auto; /* Center the line and add some margin */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* ---------color picker------- */
+
+
+.color-picker {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 9px;
+    gap: 2px;
+    border-radius: 0px;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+.color-picker .label {
+    font-size:13px;
+    margin-right: 10px;
+}
+.color-picker .color-btn {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.color-btn {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* .color-picker {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+} */
+/* ---fonts section-- */
+.font-row {
+    display: flex;
+    align-items: center;
+}
+.font-row .label {
+    flex-grow: 1;
+}
+.font-row .default {
+    color: rgb(0, 81, 255);
+    font-size: 13px;
+    cursor: pointer;
+}
+.alphabits {
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.alphabits:hover {
+    border: 1px solid blue !important;
+    color: #2563eb;
+}
+
+
+/* ---font --- */
+#font_fa{
+    font-family: "Racing Sans One", sans-serif;
+}
+
+#divs_fonts_fm{
+    font-family: "Racing Sans One", sans-serif;
+    font-size: large;
+}
+#divs_fonts_fm_d{
+    font-family: "Racing Sans One", sans-serif;
+    font-size: large;
+}
+  /* ------------------explor the stories---------------------- */
+  #Ex_arrval_heading{
+    color: #000;
+    margin-bottom: 60px;
+    font-size:55px;
+    font-family: "Racing Sans One", sans-serif;
+}
+
+#Ex_store_cards{
+    height:200px;
+}
+#Ex_store_cards_large{
+    height:200px;
+}
+
+
+/* ---------- */
+
+#custom-card {
+    width: 400px;
+    height: 240px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/15.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 20px 0px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#custom-card:hover{
+    width: 400px;
+    height: 240px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/15.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 20px 0px;
+}
+
+#custom-card_2 {
+    width: 400px;
+    height: 240px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/16.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#custom-card_2:hover {
+    width: 400px;
+    height: 240px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/16.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#custom-card_3{
+    width: 800px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/cardimg/14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#custom-card_3:hover{
+    width: 800px;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("imges/cardimg/14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#card-custom-lg{
+    color: #fff;
+    font-family: "Racing Sans One", sans-serif;
+    padding: 400px 0px 0px 40px;
+    font-size:30px;
+}
+/* ---our processes section --- */
+
+.process-step {
+    text-align: start;
+    margin-bottom: 20px;
+}
+.process-step h4 {
+    color: #e74c3c; /* Red color for numbers */
+    font-weight: bold;
+}
+.process-step h5 {
+    font-family: "Racing Sans One", sans-serif;
+}
+
+/* ----------------Join Programme -------------- */
+
+
+#join_j.bikeing-programmer {
+
+    width: 100%;
+    height: 100vh;
+}
+
+
+#join_img {
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imges/bannerImg/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 475px 0px 0px 70px;
+    font-family: "Racing Sans One", sans-serif;
+
+}
+
+#video_heading {
+    color: #fff;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 40px;
+}
+
+.video_btn {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #fff;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#fa_btn_play {
+    color: #fff;
+    font-size: 25px;
+    padding-top: 12px;
+}
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+#video_btn_heading2 {
+    color: #000;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 30px;
+    padding: 30px 0px 0px 10px;
+}
+
+#jprogramming {
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    padding: 13px 35px;
+    margin: 60px 0px 0px 120px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #c91212;
+    transition: 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+
+}
+
+
+#jprogramming:hover {
+    background: #991010;
+
+}
+#jion_heaging{
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+
+/* -------------The All New Kryo Mtb ------------- */
+
+#lastbanner_h1 {
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 60px;
+
+}
+
+#last_banner #dis_h3 {
+    margin: 0px 0px 0px 0px;
+    color: #fff;
+    font-family: "Racing Sans One", sans-serif;
+}
+
+
+
+#last_banner {
+    
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 50%), rgba(0,0,0,0.7)), url("imges/bike-hero.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: right;
+     background-attachment: fixed;
+    
+}
+
+
+#last_banner p {
+    font-family: "Roboto", sans-serif;
+    padding-top: 10px;
+}
+
+#last_banner h4 {
+    color: #d8d8d8;
+}
+
+#last_banner h1 {
+    color: #fff;
+}
+
+#last_banner p {
+    color: #fff;
+}
+
+#last_banner button {
+    background-color:#c91212;
+}
+
+#last_banner #banner_list {
+    padding: 0px 0px 0px 0px;
+}
+
+#last_banner .fa-bullseye {
+    color: #c91212;
+    margin: 10px 10px 0px 0px;
+}
+
+
+#explore_btn {
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    padding: 13px 35px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #c91212;
+    transition: 0.3s ease;
+    font-family: "Racing Sans One", sans-serif;
+    display: flex; align-items: center; justify-content: center;
+}
+
+#explore_btn:hover {
+    background: #991010;
+}
+
+/* -----------------footer ------------------- */
+
+#footer_firstpage {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89) 100%, rgba(0, 0, 0), rgb(0, 0, 0));
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    padding-top: 180px;
+}
+
+footer h5 {
+display: none;
+}
+footer h6 {
+    color: #d8d8d8;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+footer h6:hover {
+    color: #991010;
+}
+
+footer p {
+    color: #999;
+    font-size: 0.7rem;
+}
+
+#hr {
+    border: none;
+    height: 1px;
+    background-color: #fff;
+    
+}
+
+#footer_icons {
+    color: #fff;
+    display: inline-block;
+}
+
+#footer_icons i {
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#footer_icons i:hover {
+    color: #991010;
+}
+
+#footer_icon_id {
+    padding-top: 80px;
+}
+
+#row-padding {
+    padding: 20px 0;
+}
+
+#footer_icon_id p {
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.social-icons i {
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.social-icons i:hover {
+    color: #991010;
+}
+#card-custom-crads{
+    color: #fff;
+    font-size: 25px;
+    font-family: "Racing Sans One", sans-serif;
+    padding: 150px  0px 0px 30px;
+}
+.year_date{
+    color: #c91212;
+}

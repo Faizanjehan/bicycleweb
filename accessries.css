@@ -1,0 +1,606 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+
+    --maincolorOrnage: #df453e;
+    --maincolorBlack: #161616;
+}
+
+
+
+/* --navbar bicycle section */
+
+#logo img {
+    width: 90px;
+    height: 50px;
+    margin: 0px 0px 0px 60px;
+}
+
+#bicycle .navbg_color {
+
+    color: white;
+}
+
+
+#bicycle {
+
+    background: linear-gradient(rgba(175, 26, 26, 50%), rgba(0, 0, 0, 50%)), url("imges/bike-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: right;
+
+
+}
+
+#cart {
+    font-size: 20px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: "Racing Sans One", sans-serif;
+    background-color: #df453e;
+    color: #fff;
+}
+
+nav ul {
+    padding: 0px 100px 0px 0px;
+}
+
+nav ul li {
+    padding: 0px 10px;
+
+}
+
+#bicycle a {
+    color: white;
+}
+
+#bicycle nav ul li a {
+    text-decoration: none;
+    color:#fff;
+    font-size: medium;
+
+}
+
+#deflix_span {
+    color: white;
+}
+
+#icon {
+    font-size: 90px;
+    color: white;
+}
+
+#bicycle #banner_contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    padding-left: 80px;
+}
+
+ul.b {
+    list-style-type: square;
+    font-size: 17px;
+    padding-left: 1%;
+}
+
+ul.b li {
+    padding: 0px 0px 0px 10px;
+}
+
+#header_section{
+ height: 1750px;
+ border: 1px solid black;
+ background-color: #abb8c3;
+ padding: 30px 30px 30px 30px;
+ 
+}
+
+
+  /* ---------search bar--------- */
+  .search-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px auto;
+  }
+  .search-container .form-control {
+    border: 1px solid #ccc;
+    border-right: 0;
+  }
+  .search-container .btn {
+    background-color: #e74c3c;
+    color: white;
+    border: 1px solid #e74c3c;
+  }
+  .search-container .btn:hover {
+    background-color: #d62c1a;
+    border-color: #d62c1a;
+  }
+
+  
+.search-container {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.input-group .form-control {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    transition: border 0.3s ease;
+}
+
+.input-group .btn {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+ 
+.input-group .form-control:focus,
+.input-group .btn:focus {
+    border: 1px dashed rgba(27, 25, 25, 0);
+    box-shadow: none;
+} 
+
+/* Hover effects */
+.input-group .form-control:hover {
+    border: 1px dashed #000;
+    
+}
+
+.input-group .form-control:hover {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+  /* ---filter -- */
+  .filter-by-Rs{
+    margin: 30px auto;
+
+  }
+  .filter-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .filter-header {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: "Racing Sans One", sans-serif;
+  }
+  .slider {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .price-labels {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #34495e;
+  }
+  .apply-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: 1px solid #e74c3c;
+  }
+  .apply-btn:hover {
+    background-color: #d62c1a;
+    border-color: #d62c1a;
+  }
+
+
+  /* ----filter categories --- */
+  .category-filter-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    
+    width: 300px;
+  }
+  .category-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 15px;
+    font-family: "Racing Sans One", sans-serif;
+    
+    
+  }
+  .category-item {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+
+
+
+/* ---col-9  section---*/
+#col-nine{
+  margin-top: 20px;
+  padding-top: 50px;
+  
+}
+/* #home-span{
+  padding-top: 40px;
+
+} */
+
+#showingall{
+  font-size: 16px;
+}
+#col_nineheading{
+    font-size: 70px;
+    color: #e74c3c;
+    font-weight: bold;
+    font-family: "Racing Sans One", sans-serif;
+    padding-top: 30px;
+
+}
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-item {
+    margin: 15px;
+    flex: 1 1 calc(33.333% - 30px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  .product-item:hover {
+    transform: scale(1.05);
+  }
+  .product-item img {
+    width: 100%;
+    height: auto;
+  }
+  .product-item .product-info {
+    padding: 15px;
+    background-color: #fff;
+  }
+  .product-item .product-info h5 {
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+  }
+  .product-item .product-info p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  .product-item .product-info .price {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+  } 
+
+
+
+  /* --cards css--- */
+  #dolor {
+    font-family: "Racing Sans One", sans-serif;
+}
+
+#kryo_h6 {
+    font-family: "Racing Sans One", sans-serif;
+}
+
+.card .card-body {
+    display: block;
+}
+
+#n_arrval_heading {
+    padding: 100px 0px 50px 0px;
+    font-size: 60px;
+    font-family: "Racing Sans One", sans-serif;
+}
+
+#stare {
+
+    font-size: 10px;
+    /* Adjust font size if needed */
+    text-shadow: 0 1px 0px #000000;
+}
+
+.five-stars::before {
+    content: repeat(4, "*");
+}
+
+/* Style the shopping cart icon */
+.fas.fa-republican {
+    font-size: 14px;
+    /* Adjust font size as needed */
+    /* Adjust color as needed */
+    transition: 0.5s ease;
+    opacity: 0;
+    /* Add smooth color transition on hover */
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+#icon_radiues {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 11px;
+    /* Adjust position from top */
+    right: 11px;
+    background-color: #e7edf1;
+    opacity: 0;
+    transition: 0.5s ease;
+
+}
+
+.card:hover #icon_radiues {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: none;
+    position: absolute;
+    top: 12px;
+    /* Adjust position from top */
+    right: 12px;
+    background-color: #e7edf1;
+    opacity: 1;
+
+}
+
+.card:hover .fas.fa-republican {
+    color: #000;
+    /* Change color on hover */
+    opacity: 1;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+/* Shopping cart icon styling */
+.fas .fa-republican {
+    font-size: 15px;
+    /* Adjust font size as needed */
+    /* Adjust color as needed */
+    transition: color 0.3s ease-in-out;
+    /* Add smooth color transition on hover */
+    position: absolute;
+    /* Make the icon absolute for positioning */
+    top: 12px;
+    /* Adjust position from top */
+    right: 12px;
+    opacity: 1;
+    cursor: pointer;
+    /* Adjust position from right */
+}
+
+.card:hover .fas .fa-republican {
+    color: #000;
+    opacity: 1;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+    /* Change color on hover */
+}
+
+
+
+/* --footer -- */
+#footer_firstpage {
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89) 100%, rgba(0, 0, 0), rgb(0, 0, 0));
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+footer h5 {
+display: none;
+}
+footer h6 {
+    color: #d8d8d8;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+footer h6:hover {
+    color: #991010;
+}
+
+footer p {
+    color: #999;
+    font-size: 0.7rem;
+}
+
+#hr {
+    border: none;
+    height: 1px;
+    background-color: #fff;
+
+}
+
+#footer_icons {
+    color: #fff;
+    display: inline-block;
+}
+
+#footer_icons i {
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#footer_icons i:hover {
+    color: #991010;
+}
+
+#footer_icon_id {
+    padding-top: 80px;
+}
+
+#row-padding {
+    padding: 20px 0;
+}
+
+#footer_icon_id p {
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.social-icons i {
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.social-icons i:hover {
+    color: #991010;
+}
+
+
+/* batten */
+.apply-btn {
+  width: 80px;
+  height: 35px;
+  margin: 0px 0px 0x 0px;
+  background: #b22222;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.apply-btn:hover {
+  background: #991010;
+}
+
+/* .apply-btn {
+  margin-top: 20px;
+} */
+
+/* ------------explor accessries-------------*/
+#arrivals_batten {
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    padding: 13px 35px;
+    margin: 40px 0px 0px 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #c91212;
+    transition: 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+
+}
+
+#arrivals_batten:hover {
+    background: #991010;
+
+}
+
+.btn.active {
+    background-color: #007bff;
+    color: white;
+}
+
+#new_arrivals_card .btn-1 {
+    padding: 0px 0px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 27px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#new_arrivals_card #btn:hover {
+    padding: 0px 0px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 27px;
+}
+
+#new_arrivals_card .btn-2 {
+    padding: 0px 0px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 27px;
+}
+
+#new_arrivals_card .btn-3 {
+    padding: 0px 0px;
+    height: 25px;
+    width: 27px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+#new_arrivals_card .btn-1,
+#new_arrivals_card .btn-2,
+#new_arrivals_card .btn-3 {
+    padding: 0px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 27px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#new_arrivals_card .btn-1:hover,
+#new_arrivals_card .btn-2:hover,
+#new_arrivals_card .btn-3:hover {
+    /* Add your hover styles here */
+    border: 2px solid #000;
+    /* Add 1px solid border on hover */
+    /* Optional: change other styles on hover */
+    background-color: #ddd;
+    /* Example: change background color on hover */
+    color: #333;
+    /* Example: change text color on hover */
+}
+

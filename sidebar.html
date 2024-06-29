@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cycle Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .btn-customize {
+            background-color: #fff;
+            color: #000;
+            border: none;
+            padding: 10px 23px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 1100px;
+            position: fixed;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .btn-customize:hover {
+            background-color: #2563eb;
+            color: #fff;
+        }
+
+        .btn-customize:hover i {
+            color: #fff;
+        }
+
+        .btn-customize i {
+            margin-right: 8px;
+            color: #2563eb;
+        }
+
+        /* navbar */
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            bottom: 10px;
+            right: 0;
+            background-color: crimson;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #2563eb;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .closebtn {
+            width: 30px;
+            height: 30px;
+            font-weight: bold;
+            font-size: 30px;
+            color: #f00;
+            background: none;
+            border: 0.5px solid black;
+            cursor: pointer;
+            margin: 0px 0px 0px 0px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #btn_with_heading {
+            background-color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: -60px;
+            
+        }
+        .top-container {
+  padding: 10px; /* Optional padding for aesthetics */
+  background-color: #f0f0f0; /* Optional background color */
+}
+
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 0px;
+            }
+
+            .sidenav a {
+                font-size: 0px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <div id="btn_with_heading" class="shadow">
+            <h2 id="heading-realtive">Coloring</h2>
+            <button class="closebtn" onclick="closeNav()">&times;</button>
+        </div>
+
+        <!-- rows -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+        <div style="padding: 8px 32px;">
+            <p>Use the template as-is or try different colors and fonts from the options below.</p>
+            <h3>Try Other Colors</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                <!-- Color options -->
+                <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+                    <button style="background-color: #f00; width: 20px; height: 20px; border: none;"></button>
+                    <button style="background-color: #000; width: 20px; height: 20px; border: none;"></button>
+                    <button style="background-color: #888; width: 20px; height: 20px; border: none;"></button>
+                    <!-- Add more color buttons as needed -->
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="div_first"><h1>Home</h1></div>
+            <div><a href="#">Services</a></div>
+            <div><a href="#">Clients</a></div>
+            <div><a href="#">Contact</a></div>
+        </div>
+    </div>
+
+
+
+    <!-- Button to open navigation -->
+    <button class="btn-customize d-inline-flex align-items-center shadow-sm" onclick="openNav()">
+        <i class="fa-solid fa-palette"></i>
+        Customize
+    </button>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "350px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+</html>
